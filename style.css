@@ -1,0 +1,257 @@
+body{
+    font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    
+   
+    padding: 0;
+}
+.main{
+    background: rgba(0, 0, 0, 0.6) url(https://anubhavsingh16.github.io/Netflix-Clone/images/background.jpg) ;
+    background-blend-mode: darken;
+    height: 50vw;
+    background-size: cover;
+}
+.logo{
+    width: 12%;
+    
+
+}
+.btn{
+    padding: 8px 15px;
+    color: blanchedalmond;
+    background-color: red;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.nav{
+    padding-top: 5px ;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.img{
+   margin: 3px;
+   padding: 6px;
+}
+select{
+    margin-left: 1300px;
+    padding: 8px;
+
+}
+.content{
+
+    color: white;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 750px;
+
+
+}
+.content h1{
+    font-size: 50px;
+}
+
+.content h2{
+    font-size: 30px;
+}
+
+.mail{
+     width: 100%;
+     height: fit-content;
+     align-items: center;
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+}
+
+.mail input{
+    outline: none;
+    border: none;
+    padding: 12px 10px;
+    size: 1em;
+}
+
+.mail a{
+    height: fit-content;
+background-color: red;
+color: white;
+padding: 18px 12px;
+text-decoration: none ;
+
+}
+.section{
+    padding: 80px 0;
+    border-top: 8px solid#222;
+}
+.section-wrap{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+.section-content{
+    margin-left: 250px;
+    color: white;
+    font-size: 30px;
+    flex-basis: 60%;
+
+}
+.section-content p{
+    
+    font-size: 20px;
+}
+.section-media{
+    margin-right: 200px;
+    flex-basis: 50%;
+    position: relative;
+}
+.section-media  img{
+    
+    width: 100%;
+}
+
+section{
+    padding: 80px 0;
+    border-top: 8px solid#222;
+}
+.section-wrap-2{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+.section-content-2{
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+    flex-basis: 60%;
+
+}
+.section-content p2{
+    
+    font-size: 20px;
+}
+.section-media-2{
+    
+    flex-basis: 50%;
+    position: relative;
+}
+.section-media  img{
+    
+    width: 100%;
+}
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+
+}
+.cont{
+   font-size: 20px;
+    text-align: center;
+    margin: 6px 400px;
+    width: 200%;
+    max-width: 750px;
+}
+.accordian li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+}
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+
+}
+label::after{
+    content:'+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type=radio]{
+    display: none;
+}
+.accordian .cont{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max height 0.5s;
+    padding: 0.5s;
+
+
+}
+.accordian input[type=radio]:checked + label + .cont{
+    max-height: 600px;
+    padding: 30px;
+}
+.accordian input[type=radio]:checked + label::after{
+    transform: rotate(135deg);
+}
+.faq .mail{
+    max-width: 600px;
+    margin: 20px auto 60px;
+
+}
+.faq small{
+    font-size: 18px;
+}
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid#303030;
+    color: gray;
+}
+
+
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    
+}
+
+.row{
+    display:flex;
+    justify-content: space-around;
+    gap: 420px;
+}
+.footer .col a{
+    
+   
+    text-decoration: none;
+
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
